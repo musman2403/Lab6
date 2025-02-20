@@ -1,0 +1,9 @@
+List<string> groceryList = new List<string>
+        {
+            "Milk","Cheese""Butter", "Bread","Eggs",
+        };
+        Console.WriteLine("Grocery List:");
+        foreach (string item in groceryList)
+        {
+            Console.WriteLine(item);
+        }
