@@ -6,4 +6,5 @@ List<string> groceryList = new List<string>
         foreach (string item in groceryList)
         {
             Console.WriteLine(item);
+            groceryList.ADD(Pizza);
         }
